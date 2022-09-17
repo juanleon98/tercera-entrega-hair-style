@@ -1,0 +1,106 @@
+footer .main__footer, header .main__header .div__header1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+section .main__section__index, footer .main__footer .div__footer__redes, header .main__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#grilla {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 100px 700px 400px;
+  grid-template-areas: "";
+}
+
+header .main__header {
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-formas-coloridas-abstractas_23-2148769632.jpg?w=740&t=st=1663208496~exp=1663209096~hmac=8684c1d342182da3690cd7394afdba934ed745a7329aa1477344787b4db10af2);
+}
+header .main__header .div__header1 .img__logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+header .main__header .div__header__redes .redes__header {
+  width: 40px;
+  height: 40px;
+  border-radius: 70%;
+}
+
+footer .main__footer {
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-formas-coloridas-abstractas_23-2148769632.jpg?w=740&t=st=1663208496~exp=1663209096~hmac=8684c1d342182da3690cd7394afdba934ed745a7329aa1477344787b4db10af2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-around;
+}
+footer .main__footer .div__footer__redes {
+  border-right: 5px solid green;
+  border-left-color: 5px solid green;
+}
+footer .main__footer .div__footer__redes .redes__footer {
+  width: 40px;
+  height: 40px;
+  border-radius: 80%;
+  margin: 10px;
+}
+footer .main__footer .div__footer__redes h6 {
+  font-weight: bolder;
+  color: white;
+}
+footer .main__footer .div__footer__contacto {
+  color: white;
+}
+footer .main__footer .div__footer__contacto p {
+  padding-top: 15px;
+  font-weight: bolder;
+}
+footer .main__footer .div__footer__contacto h6 {
+  font-weight: bolder;
+}
+footer .main__footer .div__footer__seccion {
+  color: white;
+  border-right: 5px solid green;
+}
+footer .main__footer .div__footer__seccion ul {
+  list-style-type: none;
+}
+footer .main__footer .div__footer__seccion ul li {
+  margin-top: 15px;
+}
+footer .main__footer .div__footer__seccion ul li :hover {
+  background-color: greenyellow;
+  border-radius: 20%;
+  color: red;
+  padding-top: 15px;
+}
+footer .main__footer .div__footer__seccion ul a {
+  margin-top: 15px;
+  color: white;
+  font-weight: bold;
+}
+footer .main__footer .div__footer__seccion h6 {
+  color: white;
+  font-weight: bold;
+}
+
+.carousel-item .carrusel {
+  height: 400px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+section {
+  background-image: url(https://img.freepik.com/foto-gratis/retrato-sonriente-hombre-negocios_23-2149280771.jpg?w=740&t=st=1663213542~exp=1663214142~hmac=4892bb0bbc9a8a73a0163a64c7953998d5894676682f58f34aae94a0aff2c713);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-weight: bolder;
+}
+section .main__section__index {
+  justify-content: space-around;
+}/*# sourceMappingURL=estilos.css.map */

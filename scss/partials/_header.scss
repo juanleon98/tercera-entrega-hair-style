@@ -1,0 +1,36 @@
+header {
+  .main__header{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-formas-coloridas-abstractas_23-2148769632.jpg?w=740&t=st=1663208496~exp=1663209096~hmac=8684c1d342182da3690cd7394afdba934ed745a7329aa1477344787b4db10af2);
+
+    @extend %flex-column; 
+
+    .div__header1 {
+      @extend %flex-row;
+
+    .img__logo {
+
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+    }
+
+    h1 {}
+  }
+
+  .div__header__redes {
+
+
+    .redes__header {
+      width: 40px;
+      height: 40px;
+      border-radius: 70%;
+    }
+  }
+}
+
+}
+
+
+   
+
+

@@ -1,0 +1,87 @@
+footer {
+.main__footer { 
+                         background-image: url(https://img.freepik.com/vector-gratis/fondo-formas-coloridas-abstractas_23-2148769632.jpg?w=740&t=st=1663208496~exp=1663209096~hmac=8684c1d342182da3690cd7394afdba934ed745a7329aa1477344787b4db10af2);
+                         background-repeat: no-repeat;
+                         background-size: cover; 
+                         @extend %flex-row;
+                        justify-content: space-around;
+     .div__footer__redes {
+                      @extend %flex-column;
+                      border-right: 05px solid green;
+                      border-left-color: 05px solid green;
+
+            .redes__footer {
+                     width: 40px;
+                     height: 40px;
+                     border-radius: 80%;
+                     margin: 10px;
+        
+                                     }
+                 h6 { 
+                     font-weight: bolder;
+                     color: white;
+                                    }
+                        
+                                       }
+    .div__footer__contacto {
+                color: white;
+        
+            p { 
+                padding-top: 15px;
+                font-weight: bolder;
+
+
+            }
+            h6 { 
+                font-weight: bolder;
+            }
+
+         }
+
+         .div__footer__seccion { 
+            color: white;
+            border-right:  05px solid green;;
+
+            ul {
+
+                list-style-type: none;
+              
+                li {
+                    margin-top: 15px;
+
+                     & :hover {
+                        background-color: greenyellow;
+                        border-radius: 20%;
+                        color: red;
+                        padding-top: 15px;
+                    }
+                }
+
+
+                        a { 
+                            margin-top: 15px;
+                            color: white;
+                            font-weight: bold;
+
+                          
+
+
+
+                }
+
+            }
+
+            h6 { 
+                color: white;
+                font-weight: bold;
+            }
+         }
+    }
+
+
+
+}
+
+
+
+

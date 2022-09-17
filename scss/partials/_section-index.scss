@@ -1,0 +1,23 @@
+.carousel-item  {
+
+    .carrusel {
+        height: 400px;
+        width:max-content;
+    }
+}
+
+section {
+      background-color: gray;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: white;
+      font-weight: bolder;
+
+    .main__section__index{
+        @extend %flex-column;
+        justify-content: space-around;
+
+
+    }
+}
+ 
