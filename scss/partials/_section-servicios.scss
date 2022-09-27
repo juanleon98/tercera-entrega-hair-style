@@ -8,3 +8,22 @@
 }
 
 } 
+
+
+@media screen and (max-width:576px) {
+    .servicios__cards {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+         
+  }
+}
+
+
+
+
+
