@@ -1,8 +1,6 @@
 footer {
 .main__footer { 
-                         background-image: url(https://img.freepik.com/vector-gratis/fondo-formas-coloridas-abstractas_23-2148769632.jpg?w=740&t=st=1663208496~exp=1663209096~hmac=8684c1d342182da3690cd7394afdba934ed745a7329aa1477344787b4db10af2);
-                         background-repeat: no-repeat;
-                         background-size: cover; 
+                         background-color: black;
                          @extend %flex-row;
                         justify-content: space-around;
      .div__footer__redes {
@@ -20,6 +18,8 @@ footer {
                  h6 { 
                      font-weight: bolder;
                      color: white;
+                     font-family: 'Fuzzy Bubbles', cursive;
+                     font-size: 18px;
                                     }
                         
                                        }
@@ -27,13 +27,16 @@ footer {
                 color: white;
         
             p { 
-                padding-top: 15px;
+                padding-top: 17px;
                 font-weight: bolder;
+                font-family: 'Kaushan Script', cursive;
 
 
             }
             h6 { 
                 font-weight: bolder;
+                font-family: 'Fuzzy Bubbles', cursive;
+                font-size: 18px;
             }
 
          }
@@ -47,7 +50,8 @@ footer {
                 list-style-type: none;
               
                 li {
-                    margin-top: 15px;
+                    margin-top: 17px;
+                     font-family: 'Kaushan Script', cursive;
 
                      & :hover {
                         background-color: greenyellow;
@@ -74,6 +78,8 @@ footer {
             h6 { 
                 color: white;
                 font-weight: bold;
+                font-family: 'Fuzzy Bubbles', cursive;
+                font-size: 18px;
             }
          }
     }

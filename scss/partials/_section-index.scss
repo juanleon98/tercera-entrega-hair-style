@@ -1,17 +1,46 @@
-.carousel-item  {
+.contenedor {
 
-    .carrusel {
-        height: 400px;
-        width:max-content;
+    .cuadro {   
+        width: 100px;
+        height: 200px;
     }
+
+     .img1 {
+background-image: url(https://img.freepik.com/foto-gratis/retrato-apuesto-hombre-barbudo-desnudo-examinando-su-rostro_171337-17268.jpg?t=st=1664304809~exp=1664305409~hmac=2e90d80a9bcba6e31478f42523050991448ea71a208e0509e852bd9e160c1332);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+     }
+
+     .img2 {
+background-image: url(https://img.freepik.com/foto-gratis/macho-adulto-problemas-calvicie_23-2149152794.jpg?w=740&t=st=1663186979~exp=1663187579~hmac=a014d3f5d65c142de65c5622a406a019c89b9391aa8631cd8166444d040b4b34);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+     }
+     .img3 {
+background-image: url(https://img.freepik.com/foto-gratis/hombre-recibiendo-tratamiento-caida-cabello_23-2149152757.jpg?w=740&t=st=1663187064~exp=1663187664~hmac=6776b2768848b7c60618c3104bccebb3cfe1a003ccda560bf5f99b3ba8d4e124);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+     }
+     .img4 {
+background-image: url(https://img.freepik.com/foto-gratis/closeup-retrato-manos-mujer-sosteniendo-eds-cabello-seco-danado-problema-tricologia_176532-15683.jpg?t=st=1664302457~exp=1664303057~hmac=5b8ff3b6d34a996b113021f151c5e227de731de47346465cdecf7f288dc18d68);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+justify-content: end;
+@extend %flex-column;
+
+     }
+
 }
 
-section {
-      background-color: gray;
-      background-repeat: no-repeat;
-      background-size: cover;
-      color: white;
-      font-weight: bolder;
+
+
+
 
     .main__section__index{
         @extend %flex-column;
@@ -19,5 +48,6 @@ section {
 
 
     }
-}
+
+
  

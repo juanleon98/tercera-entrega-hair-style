@@ -4,7 +4,7 @@ footer .main__footer, header .main__header .div__header1 {
   justify-content: space-between;
 }
 
-section .main__section__index, footer .main__footer .div__footer__redes, .collapse .navbar-nav, header .main__header {
+.main__section__index, .contenedor .img4, footer .main__footer .div__footer__redes, .collapse .navbar-nav, header .main__header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -131,9 +131,7 @@ header .main__header .div__header__redes .redes__header {
 }
 
 footer .main__footer {
-  background-image: url(https://img.freepik.com/vector-gratis/fondo-formas-coloridas-abstractas_23-2148769632.jpg?w=740&t=st=1663208496~exp=1663209096~hmac=8684c1d342182da3690cd7394afdba934ed745a7329aa1477344787b4db10af2);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: black;
   justify-content: space-around;
 }
 footer .main__footer .div__footer__redes {
@@ -149,16 +147,21 @@ footer .main__footer .div__footer__redes .redes__footer {
 footer .main__footer .div__footer__redes h6 {
   font-weight: bolder;
   color: white;
+  font-family: "Fuzzy Bubbles", cursive;
+  font-size: 18px;
 }
 footer .main__footer .div__footer__contacto {
   color: white;
 }
 footer .main__footer .div__footer__contacto p {
-  padding-top: 15px;
+  padding-top: 17px;
   font-weight: bolder;
+  font-family: "Kaushan Script", cursive;
 }
 footer .main__footer .div__footer__contacto h6 {
   font-weight: bolder;
+  font-family: "Fuzzy Bubbles", cursive;
+  font-size: 18px;
 }
 footer .main__footer .div__footer__seccion {
   color: white;
@@ -168,7 +171,8 @@ footer .main__footer .div__footer__seccion ul {
   list-style-type: none;
 }
 footer .main__footer .div__footer__seccion ul li {
-  margin-top: 15px;
+  margin-top: 17px;
+  font-family: "Kaushan Script", cursive;
 }
 footer .main__footer .div__footer__seccion ul li :hover {
   background-color: greenyellow;
@@ -184,25 +188,49 @@ footer .main__footer .div__footer__seccion ul a {
 footer .main__footer .div__footer__seccion h6 {
   color: white;
   font-weight: bold;
+  font-family: "Fuzzy Bubbles", cursive;
+  font-size: 18px;
 }
 
-.carousel-item .carrusel {
-  height: 400px;
-  width: max-content;
+.contenedor .cuadro {
+  width: 100px;
+  height: 200px;
 }
-
-section {
-  background-color: gray;
+.contenedor .img1 {
+  background-image: url(https://img.freepik.com/foto-gratis/retrato-apuesto-hombre-barbudo-desnudo-examinando-su-rostro_171337-17268.jpg?t=st=1664304809~exp=1664305409~hmac=2e90d80a9bcba6e31478f42523050991448ea71a208e0509e852bd9e160c1332);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
-  font-weight: bolder;
 }
-section .main__section__index {
+.contenedor .img2 {
+  background-image: url(https://img.freepik.com/foto-gratis/macho-adulto-problemas-calvicie_23-2149152794.jpg?w=740&t=st=1663186979~exp=1663187579~hmac=a014d3f5d65c142de65c5622a406a019c89b9391aa8631cd8166444d040b4b34);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contenedor .img3 {
+  background-image: url(https://img.freepik.com/foto-gratis/hombre-recibiendo-tratamiento-caida-cabello_23-2149152757.jpg?w=740&t=st=1663187064~exp=1663187664~hmac=6776b2768848b7c60618c3104bccebb3cfe1a003ccda560bf5f99b3ba8d4e124);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contenedor .img4 {
+  background-image: url(https://img.freepik.com/foto-gratis/closeup-retrato-manos-mujer-sosteniendo-eds-cabello-seco-danado-problema-tricologia_176532-15683.jpg?t=st=1664302457~exp=1664303057~hmac=5b8ff3b6d34a996b113021f151c5e227de731de47346465cdecf7f288dc18d68);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: end;
+}
+
+.main__section__index {
   justify-content: space-around;
 }
 
-.row .col-12 .fix {
+.col-12 .servicios__cards p {
+  padding: 20px;
+  margin: 20px;
+}
+.col-12 .servicios__cards .fix {
   width: 230px;
   height: 230px;
   border-radius: 25%;
@@ -216,6 +244,28 @@ section .main__section__index {
     justify-content: center;
   }
 }
+.row {
+  background-image: url(https://img.freepik.com/foto-gratis/galaxia-estetica-fondo-negro_53876-111379.jpg?w=740&t=st=1666036312~exp=1666036912~hmac=905f1480b52f6405f63f92d1ea33fda4a949c8b81d9d1a2bb4d9e9845ae5155b);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row .gato p {
+  font-family: "Fuzzy Bubbles", cursive;
+  color: black;
+  font-size: 24px;
+}
+.row .formulario-work form label {
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.row .formulario-work form h3 {
+  color: white;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
 @media screen and (max-width: 576px) {
   .nieto {
     height: 260vh;

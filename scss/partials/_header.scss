@@ -6,6 +6,7 @@ header {
 
     .div__header1 {
       @extend %flex-row;
+      
 
     .img__logo {
 
@@ -16,8 +17,10 @@ header {
 
     .titulo__index {
       color: white;
+     
     }
   }
+
 
   .div__header__redes {
 
