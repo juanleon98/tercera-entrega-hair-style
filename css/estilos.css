@@ -244,23 +244,23 @@ footer .main__footer .div__footer__seccion h6 {
     justify-content: center;
   }
 }
-.row {
+.rr {
   background-image: url(https://img.freepik.com/foto-gratis/galaxia-estetica-fondo-negro_53876-111379.jpg?w=740&t=st=1666036312~exp=1666036912~hmac=905f1480b52f6405f63f92d1ea33fda4a949c8b81d9d1a2bb4d9e9845ae5155b);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.row .gato p {
+.rr .gato p {
   font-family: "Fuzzy Bubbles", cursive;
   color: black;
   font-size: 24px;
 }
-.row .formulario-work form label {
+.rr .formulario-work form label {
   color: white;
   font-weight: bolder;
   font-size: 18px;
 }
-.row .formulario-work form h3 {
+.rr .formulario-work form h3 {
   color: white;
   font-weight: bolder;
   font-size: 24px;
